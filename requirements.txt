@@ -1,0 +1,8 @@
+requests
+bs4
+numpy
+matplotlib
+pandas
+lxml
+bcrypt
+html5lib
