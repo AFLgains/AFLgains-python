@@ -61,6 +61,22 @@ python scrape_afl_data.py -from_year 2010 -to_year 2015 -prev_player_data_filelo
 
 
 
+FOR DOCKER USERS:
+----------------
+This script is shipped with a docker file you can use to run. For basic use:
+
+sudo docker build -t "afl_scraper" .
+sudo docker run afl_scraper
+
+The dockerfile also had a volume in it which store the data at /usr/src/app/data
+You can access the volume by creating a bind mounted volume at run time which maps a path 
+in your host filesystem to a path in the Docker's container. 
+
+That is:
+
+docker run -v /path/to/where/your/data/needs/to/save:/usr/src/app/data docker_test
+
+
 """
 
 import argparse
@@ -346,9 +362,9 @@ def main():
                     help='Starting year to scrape')
 	parser.add_argument('-to_year', metavar='ty', type=int, default = datetime.datetime.now().year,
                     help='End year to scrape', choices = range(2001, datetime.datetime.now().year+1))
-	parser.add_argument('-prev_player_data_fileloc', metavar='player_filepath', type=str, default = "./afl_data_player.csv",
+	parser.add_argument('-prev_player_data_fileloc', metavar='player_filepath', type=str, default = "/afl_data_player.csv",
                     help='Path to previous player data file location')
-	parser.add_argument('-prev_match_data_fileloc', metavar='match_filepath', type=str, default = "./afl_data_match.csv",
+	parser.add_argument('-prev_match_data_fileloc', metavar='match_filepath', type=str, default = "/afl_data_match.csv",
                     help='Path to previous match data file location')
 	parser.add_argument('-verbose', metavar='verbose', type=bool, default = False,
                     help='Verbose print during scraping')
@@ -363,7 +379,7 @@ def main():
 		url_list = current_afl_match_data['url'].unique()
 	else:
 		print "Previous data could not be found"
-        
+		
 	# Measure the current time
 	now = datetime.datetime.now()
 
@@ -394,8 +410,10 @@ def main():
 		for_print_match = current_afl_match_data.append(for_print_match)
 
 	# Print them out to the directory
-	for_print_player.to_csv(args.prev_player_data_fileloc,index = False)
-	for_print_match.to_csv(args.prev_match_data_fileloc,index = False)
+	print "Printing data to /data"+args.prev_player_data_fileloc
+	
+	for_print_player.to_csv("/data"+args.prev_player_data_fileloc,index = False)
+	for_print_match.to_csv("/data"+args.prev_match_data_fileloc,index = False)
 
 
 if __name__ == "__main__":
