@@ -1,0 +1,67 @@
+2019-05-16 13:02:16,102 - __main__ - INFO - Started
+2019-05-16 13:03:01,478 - __main__ - INFO - Started
+2019-05-16 13:03:01,480 - __main__ - INFO - Previous data could not be found
+2019-05-16 13:03:27,374 - __main__ - INFO - Started
+2019-05-16 13:03:27,375 - __main__ - INFO - Previous data could not be found
+2019-05-16 13:03:44,459 - __main__ - INFO - Started
+2019-05-16 13:03:44,460 - __main__ - INFO - Previous data could not be found
+2019-05-16 13:04:02,867 - __main__ - INFO - Started
+2019-05-16 13:04:02,868 - __main__ - INFO - Previous data could not be found
+2019-05-16 13:04:53,812 - __main__ - INFO - Started
+2019-05-16 13:04:53,813 - __main__ - INFO - Previous data could not be found
+2019-05-16 13:05:19,014 - __main__ - INFO - Started
+2019-05-16 13:05:19,016 - __main__ - INFO - Previous data could not be found
+2019-05-16 13:05:47,135 - __main__ - INFO - Started
+2019-05-16 13:05:47,137 - __main__ - INFO - Previous Data found
+2019-05-16 13:06:07,377 - __main__ - INFO - Started
+2019-05-16 13:06:07,379 - __main__ - INFO - Previous Data found
+2019-05-16 13:06:32,997 - __main__ - INFO - Started
+2019-05-16 13:06:32,999 - __main__ - INFO - Previous Data found
+2019-05-16 13:06:58,246 - __main__ - INFO - Started
+2019-05-16 13:06:58,248 - __main__ - INFO - Previous Data found
+2019-05-16 13:06:59,061 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-16 13:07:34,881 - __main__ - INFO - Started
+2019-05-16 13:07:34,882 - __main__ - INFO - Previous Data found
+2019-05-16 13:07:35,719 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-16 13:07:35,720 - __main__ - INFO - test log
+2019-05-16 13:08:54,507 - __main__ - INFO - Started
+2019-05-16 13:08:54,509 - __main__ - INFO - Previous Data found
+2019-05-16 13:08:55,343 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 20:26:36,197 - __main__ - INFO - Started
+2019-05-17 20:26:36,200 - __main__ - INFO - Previous Data found
+2019-05-17 20:26:37,738 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 20:27:54,555 - __main__ - INFO - Started
+2019-05-17 20:27:54,556 - __main__ - INFO - Previous Data found
+2019-05-17 20:27:55,879 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 23:30:59,473 - __main__ - INFO - Started
+2019-05-17 23:30:59,476 - __main__ - INFO - Previous Data found
+2019-05-17 23:31:01,045 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 23:31:42,834 - __main__ - INFO - Started
+2019-05-17 23:31:42,837 - __main__ - INFO - Previous Data found
+2019-05-17 23:31:43,993 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 23:36:25,335 - __main__ - INFO - Started
+2019-05-17 23:36:25,336 - __main__ - INFO - Previous Data found
+2019-05-17 23:36:26,464 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 23:36:47,062 - __main__ - INFO - Started
+2019-05-17 23:36:47,064 - __main__ - INFO - Previous Data found
+2019-05-17 23:36:48,147 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-17 23:36:48,579 - __main__ - INFO - No games to scrape for season 2000
+2019-05-17 23:36:53,906 - __main__ - INFO - No games to scrape for season 2001
+2019-05-17 23:36:59,182 - __main__ - INFO - No games to scrape for season 2002
+2019-05-17 23:37:08,121 - __main__ - INFO - No games to scrape for season 2003
+2019-05-17 23:37:13,440 - __main__ - INFO - No games to scrape for season 2004
+2019-05-17 23:37:19,964 - __main__ - INFO - No games to scrape for season 2005
+2019-05-17 23:37:25,235 - __main__ - INFO - No games to scrape for season 2006
+2019-05-17 23:37:31,130 - __main__ - INFO - No games to scrape for season 2007
+2019-05-17 23:37:36,669 - __main__ - INFO - No games to scrape for season 2008
+2019-05-17 23:37:41,843 - __main__ - INFO - No games to scrape for season 2009
+2019-05-17 23:37:47,230 - __main__ - INFO - No games to scrape for season 2010
+2019-05-17 23:37:52,814 - __main__ - INFO - No games to scrape for season 2011
+2019-05-17 23:37:58,003 - __main__ - INFO - No games to scrape for season 2012
+2019-05-17 23:38:03,274 - __main__ - INFO - No games to scrape for season 2013
+2019-05-17 23:38:08,788 - __main__ - INFO - No games to scrape for season 2014
+2019-05-17 23:38:14,022 - __main__ - INFO - No games to scrape for season 2015
+2019-05-17 23:38:19,376 - __main__ - INFO - No games to scrape for season 2016
+2019-05-17 23:38:24,972 - __main__ - INFO - No games to scrape for season 2017
+2019-05-17 23:38:30,454 - __main__ - INFO - No games to scrape for season 2018
+2019-05-17 23:38:35,892 - __main__ - INFO - No games to scrape for season 2019

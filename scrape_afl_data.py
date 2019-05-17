@@ -55,7 +55,8 @@ python scrape_afl_data.py -from_year 2010 -to_year 2015
 
 
 Example 3 - Scrape data from Season 2010 to 2015 specifying previously 
-downloade data path
+downloaded data path. This is important if you don't want to re-scrape
+data you have already scraped and speed up the process. 
 -----------------------------------------------
 python scrape_afl_data.py -from_year 2010 -to_year 2015 -prev_player_data_fileloc ./afl_player_data.csv -prev_match_data_fileloc ./afl_match_data.csv
 
@@ -70,15 +71,14 @@ sudo docker run afl_scraper
 
 The dockerfile also had a volume in it which store the data at /usr/src/app/data
 You can access the volume by creating a bind mounted volume at run time which maps a path 
-in your host filesystem to a path in the Docker's container. 
+in your host filesystem to a path in the Docker's container. That is:
 
-That is:
-
-docker run -v /path/to/where/your/data/needs/to/save:/usr/src/app/data docker_test
+docker run -v /path/to/where/your/data/needs/to/save:/usr/src/app/data afl_scraper
 
 
 """
 
+# Importing libraries
 import argparse
 import requests
 from bs4 import BeautifulSoup
@@ -91,6 +91,29 @@ import re
 import bcrypt
 import datetime
 import os
+import logging
+import time
+
+
+# Creating a logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# create console handler and set level to debug
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+ch.setFormatter(formatter)
+
+# Adding a file handler
+fh = logging.FileHandler(r'scrape.log')
+fh.setLevel(logging.DEBUG)
+fh.setFormatter(formatter)
+
+# add ch to logger
+logger.addHandler(ch)
+logger.addHandler(fh)
 
 class afl_season():
 
@@ -112,7 +135,7 @@ class afl_season():
         Extracts season's data from AFLtables.com and stores it in a dataframe
     """
 
-	def __init__(self,year,game_not_to_scrape = []):
+	def __init__(self,year, game_not_to_scrape = []):
 
 		"""
         Parameters
@@ -122,13 +145,21 @@ class afl_season():
 
 	    game_not_to_scrape : list of str, optional
 	    	A list of urls to not scrape. Can speed up scraping. 
+
+	    url_list:
+
+	    player_data:
+
+	    match_data:
+
+
         """
 
 		# Get the current time
 		now = datetime.datetime.now()
 
 		# Assertions
-		assert type(year) == int, "Input must be an integer"
+		assert type(year) == int, "Year input must be an integer"
 		assert year >= 2000, "Seasons must be greater than 1999" 
 		assert year <= now.year, "Seasons must be less than " + now.year
 
@@ -146,7 +177,7 @@ class afl_season():
 		self.url_list = [e for e in self.url_list if e not in game_not_to_scrape]
 
 
-	def extract_season_data(self,verbose = False):
+	def extract_season_data(self,verbose = False,n_sec = 5):
 
 		"""Extracts season's data from AFLtables.com and stores it in a dataframe
 
@@ -161,7 +192,7 @@ class afl_season():
 
 		# Where the URL list is empty
 		if len(self.url_list)==0:
-			print("No games to scrape for season "+ str(self.year))
+			logger.info("No games to scrape for season "+ str(self.year))
 			return 
 
 		# Otherwise enter into the scraping code
@@ -185,9 +216,12 @@ class afl_season():
 
 			# Print out user
 			if verbose == True:
-				print('Date:{0}, Attendance: {1}, Round:, {2}, Home: {3}, Away: {4}, ID: {5}'.format(match.date,match.attendance,match.round,match.home_team,match.away_team,match.match_id))
+				logger.info('Date:{0}, Attendance: {1}, Round:, {2}, Home: {3}, Away: {4}, ID: {5}'.format(match.date,match.attendance,match.round,match.home_team,match.away_team,match.match_id))
 			else:
-				print('Season:{0}, Home: {1}, Away: {2}'.format(self.year,match.home_team,match.away_team))
+				logger.info('Season:{0}, Home: {1}, Away: {2}'.format(self.year,match.home_team,match.away_team))
+
+			# Pause fo x seconds to reduce load on the server 
+			time.sleep(n_sec)
 
 
 
@@ -313,7 +347,7 @@ class afl_match():
 		if not len(stats_tables_idx)==2:
 			home = []
 			away  = []
-			print("Warning: Could not find two tables")
+			logger.info("Warning: Could not find two tables")
 			return home, away
 
 		# Only take the 22 players
@@ -328,7 +362,7 @@ class afl_match():
 		return home, away
 
 
-	def extract_elements(self,string,element):
+	def extract_elements(self,string,element): 
 
 	    met_data_titles = ["Round:","Venue:","Date:","Attendance:",""]
 
@@ -355,6 +389,7 @@ class afl_match():
 
 
 def main():
+	logger.info('Started')
 
 	# Arguments to pass in
 	parser = argparse.ArgumentParser(description='Scrape years of data')
@@ -370,15 +405,15 @@ def main():
                     help='Verbose print during scraping')
 	args = parser.parse_args()
 
-	#Get a URL list if it already exists in the folder
+
 	url_list = []
-	if os.path.exists(args.prev_player_data_fileloc) and os.path.exists(args.prev_match_data_fileloc):
-		print "Previous data found"
-		current_afl_player_data = pd.read_csv(args.prev_player_data_fileloc)
-		current_afl_match_data = pd.read_csv(args.prev_match_data_fileloc)
-		url_list = current_afl_match_data['url'].unique()
+	if os.path.exists('.'+args.prev_player_data_fileloc) and os.path.exists('.'+args.prev_match_data_fileloc):
+		logger.info('Previous Data found')
+		player_data_existing = pd.read_csv('.'+args.prev_player_data_fileloc)
+		match_data_existing = pd.read_csv('.'+args.prev_match_data_fileloc)
+		url_list = player_data_existing['url'].unique()
 	else:
-		print "Previous data could not be found"
+		logger.info("Previous data could not be found")
 		
 	# Measure the current time
 	now = datetime.datetime.now()
@@ -386,7 +421,7 @@ def main():
 	# Scrape the data
 	player_data = []
 	match_data = []
-	print "Scraping years:", list(range(args.from_year,args.to_year+1))
+	logger.info("Scraping years:" +str(list(range(args.from_year,args.to_year+1)) ) )
 	for year in list(range(args.from_year,np.min([now.year+1,args.to_year+1]))):
 		seas = afl_season(year,game_not_to_scrape= url_list)
 		seas.extract_season_data(verbose = args.verbose)
@@ -396,24 +431,26 @@ def main():
 			player_data.append(pd.concat(seas.player_data, ignore_index=True))
 			match_data.append(pd.concat(seas.match_data, ignore_index = True))
 
+		time.sleep(5)
+
 	# Don't do anything if we haven't scraped anything
 	if len(player_data)==0:
 		return
 
 	# ... Otherwise concatenate the data frames together
-	for_print_player = pd.concat(player_data, ignore_index=True)
-	for_print_match = pd.concat(match_data, ignore_index=True)
+	player_for_print = pd.concat(player_data, ignore_index=True)
+	match_for_print = pd.concat(match_data, ignore_index=True)
 
 	# If the URL list is not empty, then append the new results with the existing ones
 	if not len(url_list)==0:
-		for_print_player = current_afl_player_data.append(for_print_player)
-		for_print_match = current_afl_match_data.append(for_print_match)
+		player_for_print = player_data_existing.append(player_for_print)
+		match_for_print= match_data_existing.append(match_for_print)
 
 	# Print them out to the directory
 	print "Printing data to /data"+args.prev_player_data_fileloc
 	
-	for_print_player.to_csv("/data"+args.prev_player_data_fileloc,index = False)
-	for_print_match.to_csv("/data"+args.prev_match_data_fileloc,index = False)
+	player_for_print.to_csv("."+args.prev_player_data_fileloc,index = False)
+	match_for_print.to_csv("."+args.prev_match_data_fileloc,index = False)
 
 
 if __name__ == "__main__":
