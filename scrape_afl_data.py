@@ -93,7 +93,8 @@ import datetime
 import os
 import logging
 import time
-
+from random import choice
+import requests
 
 # Creating a logger
 logger = logging.getLogger(__name__)
@@ -114,6 +115,23 @@ fh.setFormatter(formatter)
 # add ch to logger
 logger.addHandler(ch)
 logger.addHandler(fh)
+
+
+ 
+def random_headers():
+	desktop_agents = ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
+                 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
+                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
+                 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14',
+                 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+                 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+                 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+                 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+                 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
+                 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0']
+	return {'User-Agent': choice(desktop_agents),'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'}
+
+
 
 class afl_season():
 
@@ -168,7 +186,7 @@ class afl_season():
 
 		# Get the URL list which represents all the matches
 		url = "https://afltables.com/afl/seas/"+ str(self.year)+".html#10"
-		response = requests.get(url)
+		response = requests.get(url,headers=random_headers())
 		soup = BeautifulSoup(response.text, "html.parser")
 		x = soup.findAll('a')
 		self.url_list = ["http://afltables.com/afl/stats/"+e['href'].replace("../stats/","") for e in x if "../stats/games" in str(e)]

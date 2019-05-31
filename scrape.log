@@ -65,3 +65,470 @@
 2019-05-17 23:38:24,972 - __main__ - INFO - No games to scrape for season 2017
 2019-05-17 23:38:30,454 - __main__ - INFO - No games to scrape for season 2018
 2019-05-17 23:38:35,892 - __main__ - INFO - No games to scrape for season 2019
+2019-05-30 20:49:39,650 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 20:49:46,044 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 20:49:51,168 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 20:49:56,280 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 20:50:01,404 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 20:50:06,512 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 20:50:11,644 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 20:50:16,754 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 20:50:22,147 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 20:50:27,263 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 20:50:32,413 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 20:50:37,525 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 20:50:44,225 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 20:50:49,352 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 20:50:56,018 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 20:51:01,122 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 20:51:07,671 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 20:51:14,249 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 20:51:19,380 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 20:51:27,362 - scrape_afl_data - INFO - Season:2019, Home: Sydney, Away: Essendon
+2019-05-30 20:51:33,428 - scrape_afl_data - INFO - Season:2019, Home: Carlton, Away: Collingwood
+2019-05-30 20:51:39,704 - scrape_afl_data - INFO - Season:2019, Home: Western Bulldogs, Away: Brisbane Lions
+2019-05-30 20:51:45,723 - scrape_afl_data - INFO - Season:2019, Home: Gold Coast, Away: Melbourne
+2019-05-30 20:51:51,977 - scrape_afl_data - INFO - Season:2019, Home: St Kilda, Away: West Coast
+2019-05-30 20:51:58,045 - scrape_afl_data - INFO - Season:2019, Home: Port Adelaide, Away: Adelaide
+2019-05-30 20:52:04,033 - scrape_afl_data - INFO - Season:2019, Home: North Melbourne, Away: Geelong
+2019-05-30 20:52:10,046 - scrape_afl_data - INFO - Season:2019, Home: Hawthorn, Away: Greater Western Sydney
+2019-05-30 20:52:16,359 - scrape_afl_data - INFO - Season:2019, Home: Fremantle, Away: Richmond
+2019-05-30 20:52:22,382 - scrape_afl_data - INFO - Season:2019, Home: West Coast, Away: Melbourne
+2019-05-30 20:52:28,523 - scrape_afl_data - INFO - Season:2019, Home: Collingwood, Away: St Kilda
+2019-05-30 20:52:34,613 - scrape_afl_data - INFO - Season:2019, Home: Brisbane Lions, Away: Adelaide
+2019-05-30 20:52:40,755 - scrape_afl_data - INFO - Season:2019, Home: Geelong, Away: Western Bulldogs
+2019-05-30 20:52:46,828 - scrape_afl_data - INFO - Season:2019, Home: Essendon, Away: Fremantle
+2019-05-30 20:52:52,887 - scrape_afl_data - INFO - Season:2019, Home: North Melbourne, Away: Sydney
+2019-05-30 20:52:59,083 - scrape_afl_data - INFO - Season:2019, Home: Port Adelaide, Away: Gold Coast
+2019-05-30 20:53:05,629 - scrape_afl_data - INFO - Season:2019, Home: Richmond, Away: Hawthorn
+2019-05-30 20:53:11,676 - scrape_afl_data - INFO - Season:2019, Home: Greater Western Sydney, Away: Carlton
+2019-05-30 20:53:18,395 - scrape_afl_data - INFO - Season:2019, Home: Sydney, Away: Collingwood
+2019-05-30 20:53:24,490 - scrape_afl_data - INFO - Season:2019, Home: Hawthorn, Away: Port Adelaide
+2019-05-30 20:53:30,661 - scrape_afl_data - INFO - Season:2019, Home: Western Bulldogs, Away: North Melbourne
+2019-05-30 20:53:36,739 - scrape_afl_data - INFO - Season:2019, Home: Adelaide, Away: West Coast
+2019-05-30 20:53:42,787 - scrape_afl_data - INFO - Season:2019, Home: Richmond, Away: Essendon
+2019-05-30 20:53:48,801 - scrape_afl_data - INFO - Season:2019, Home: Gold Coast, Away: Geelong
+2019-05-30 20:53:54,842 - scrape_afl_data - INFO - Season:2019, Home: Melbourne, Away: Greater Western Sydney
+2019-05-30 20:54:00,977 - scrape_afl_data - INFO - Season:2019, Home: St Kilda, Away: Carlton
+2019-05-30 20:54:06,978 - scrape_afl_data - INFO - Season:2019, Home: Fremantle, Away: Brisbane Lions
+2019-05-30 21:46:57,859 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 21:47:03,006 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 21:47:08,145 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 21:47:13,264 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 21:47:18,387 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 21:47:23,501 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 21:47:28,617 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 21:47:33,745 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 21:47:38,855 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 21:47:45,262 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 21:47:50,394 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 21:47:55,513 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 21:48:02,135 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 21:48:07,277 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 21:48:13,764 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 21:48:20,321 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 21:48:26,898 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 21:48:32,006 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 21:48:37,162 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 21:48:42,286 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 21:52:55,149 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 21:53:00,492 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 21:53:06,790 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 21:53:12,481 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 21:53:18,302 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 21:53:23,753 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 21:53:28,930 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 21:53:34,311 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 21:53:39,431 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 21:53:44,553 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 21:53:49,665 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 21:53:54,849 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 21:53:59,962 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 21:54:05,985 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 21:54:11,253 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 21:54:16,385 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 21:54:21,494 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 21:54:26,616 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 21:54:31,729 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 21:54:37,120 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 22:08:45,782 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 22:08:50,968 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 22:08:56,121 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 22:09:01,264 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 22:09:06,392 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 22:09:11,512 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 22:09:16,668 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 22:09:21,779 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 22:09:26,982 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 22:09:35,636 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 22:09:40,909 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 22:09:46,153 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 22:09:52,032 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 22:09:57,696 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 22:10:03,146 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 22:10:09,145 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 22:10:14,639 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 22:10:20,326 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 22:10:25,748 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 22:10:32,205 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 22:16:00,458 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 22:16:05,572 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 22:16:10,713 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 22:16:15,838 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 22:16:20,976 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 22:16:26,093 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 22:16:31,213 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 22:16:36,326 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 22:16:41,517 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 22:16:46,640 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 22:16:51,759 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 22:16:56,918 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 22:17:02,098 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 22:17:07,213 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 22:17:12,354 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 22:17:17,494 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 22:17:22,637 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 22:17:27,753 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 22:17:32,904 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 22:17:38,014 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 22:24:46,302 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 22:24:51,410 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 22:24:56,541 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 22:25:01,781 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 22:25:06,889 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 22:25:12,007 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 22:25:17,130 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 22:25:22,331 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 22:25:27,768 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 22:25:32,910 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 22:25:38,453 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 22:25:43,563 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 22:25:48,674 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 22:25:53,823 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 22:25:58,962 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 22:26:04,069 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 22:26:09,202 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 22:26:14,312 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 22:26:19,458 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 22:26:24,579 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 22:42:13,507 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 22:42:18,884 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 22:42:24,009 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 22:42:29,126 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 22:42:34,252 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 22:42:39,395 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 22:42:44,556 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 22:42:49,815 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 22:42:56,219 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 22:43:01,334 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 22:43:06,457 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 22:43:11,570 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 22:43:16,753 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 22:43:21,887 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 22:43:26,995 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 22:43:32,166 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 22:43:37,274 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 22:43:42,406 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 22:43:47,529 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 22:43:52,690 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 22:53:23,688 - __main__ - INFO - Started
+2019-05-30 22:53:23,691 - __main__ - INFO - Previous data could not be found
+2019-05-30 22:53:23,691 - __main__ - INFO - Scraping years:[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+2019-05-30 22:53:26,025 - __main__ - INFO - Season:2000, Home: Richmond, Away: Melbourne
+2019-05-30 22:53:32,039 - __main__ - INFO - Season:2000, Home: Essendon, Away: Port Adelaide
+2019-05-30 22:53:38,266 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: West Coast
+2019-05-30 22:53:44,299 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Western Bulldogs
+2019-05-30 22:53:50,321 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Geelong
+2019-05-30 22:53:56,314 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Sydney
+2019-05-30 22:54:02,363 - __main__ - INFO - Season:2000, Home: Carlton, Away: Brisbane Lions
+2019-05-30 22:54:08,553 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Collingwood
+2019-05-30 22:54:14,610 - __main__ - INFO - Season:2000, Home: Essendon, Away: Richmond
+2019-05-30 22:54:20,601 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Kangaroos
+2019-05-30 22:54:26,646 - __main__ - INFO - Season:2000, Home: Geelong, Away: St Kilda
+2019-05-30 22:54:32,728 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Fremantle
+2019-05-30 22:54:38,851 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Adelaide
+2019-05-30 22:54:45,926 - __main__ - INFO - Season:2000, Home: Carlton, Away: Hawthorn
+2019-05-30 22:54:51,984 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Brisbane Lions
+2019-05-30 22:54:54,439 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 22:54:58,270 - __main__ - INFO - Season:2000, Home: West Coast, Away: Sydney
+2019-05-30 22:55:00,931 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 22:55:04,298 - __main__ - INFO - Season:2000, Home: Richmond, Away: Kangaroos
+2019-05-30 22:55:07,392 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 22:55:10,246 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Brisbane Lions
+2019-05-30 22:55:13,698 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 22:55:16,247 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Geelong
+2019-05-30 22:55:20,053 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 22:55:22,237 - __main__ - INFO - Season:2000, Home: St Kilda, Away: West Coast
+2019-05-30 22:55:26,491 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 22:55:28,282 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Carlton
+2019-05-30 22:55:33,076 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 22:55:34,322 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Port Adelaide
+2019-05-30 22:55:39,630 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 22:55:40,402 - __main__ - INFO - Season:2000, Home: Sydney, Away: Melbourne
+2019-05-30 22:55:46,044 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 22:55:46,481 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Essendon
+2019-05-30 22:55:52,382 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 22:55:52,520 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Geelong
+2019-05-30 22:55:58,591 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Carlton
+2019-05-30 22:55:58,819 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 22:56:04,580 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Essendon
+2019-05-30 22:56:05,372 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 22:56:10,622 - __main__ - INFO - Season:2000, Home: Sydney, Away: Collingwood
+2019-05-30 22:56:12,110 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 22:56:16,702 - __main__ - INFO - Season:2000, Home: West Coast, Away: Adelaide
+2019-05-30 22:56:18,665 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 22:56:22,855 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Brisbane Lions
+2019-05-30 22:56:25,334 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 22:56:28,988 - __main__ - INFO - Season:2000, Home: Richmond, Away: Fremantle
+2019-05-30 22:56:31,952 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 22:56:35,261 - __main__ - INFO - Season:2000, Home: Melbourne, Away: St Kilda
+2019-05-30 22:56:38,822 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 22:56:41,323 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Collingwood
+2019-05-30 22:56:45,364 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 22:56:47,358 - __main__ - INFO - Season:2000, Home: Essendon, Away: Carlton
+2019-05-30 22:56:52,024 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 22:56:53,493 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Adelaide
+2019-05-30 22:56:59,507 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Melbourne
+2019-05-30 22:56:59,862 - scrape_afl_data - INFO - Season:2019, Home: Sydney, Away: Essendon
+2019-05-30 22:57:05,567 - __main__ - INFO - Season:2000, Home: Geelong, Away: West Coast
+2019-05-30 22:57:11,631 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Sydney
+2019-05-30 22:57:16,016 - scrape_afl_data - INFO - Season:2019, Home: Carlton, Away: Collingwood
+2019-05-30 22:57:17,645 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Richmond
+2019-05-30 22:57:23,873 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Hawthorn
+2019-05-30 22:57:29,932 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Essendon
+2019-05-30 22:57:32,050 - scrape_afl_data - INFO - Season:2019, Home: Western Bulldogs, Away: Brisbane Lions
+2019-05-30 22:57:35,986 - __main__ - INFO - Season:2000, Home: Carlton, Away: Port Adelaide
+2019-05-30 22:57:41,958 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Kangaroos
+2019-05-30 22:57:47,977 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Brisbane Lions
+2019-05-30 22:57:48,166 - scrape_afl_data - INFO - Season:2019, Home: Gold Coast, Away: Melbourne
+2019-05-30 22:57:54,047 - __main__ - INFO - Season:2000, Home: West Coast, Away: Fremantle
+2019-05-30 22:58:00,372 - __main__ - INFO - Season:2000, Home: Geelong, Away: Melbourne
+2019-05-30 22:58:04,486 - scrape_afl_data - INFO - Season:2019, Home: St Kilda, Away: West Coast
+2019-05-30 22:58:06,456 - __main__ - INFO - Season:2000, Home: Sydney, Away: Richmond
+2019-05-30 22:58:12,575 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Hawthorn
+2019-05-30 22:58:18,584 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Western Bulldogs
+2019-05-30 22:58:20,589 - scrape_afl_data - INFO - Season:2019, Home: Port Adelaide, Away: Adelaide
+2019-05-30 22:58:24,605 - __main__ - INFO - Season:2000, Home: Sydney, Away: Geelong
+2019-05-30 22:58:30,602 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Kangaroos
+2019-05-30 22:58:36,707 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Adelaide
+2019-05-30 22:58:36,815 - scrape_afl_data - INFO - Season:2019, Home: North Melbourne, Away: Geelong
+2019-05-30 22:58:42,818 - __main__ - INFO - Season:2000, Home: Melbourne, Away: West Coast
+2019-05-30 22:58:48,921 - __main__ - INFO - Season:2000, Home: Richmond, Away: Carlton
+2019-05-30 22:58:52,851 - scrape_afl_data - INFO - Season:2019, Home: Hawthorn, Away: Greater Western Sydney
+2019-05-30 22:58:54,901 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Essendon
+2019-05-30 22:59:01,125 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Brisbane Lions
+2019-05-30 22:59:07,600 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Hawthorn
+2019-05-30 22:59:08,967 - scrape_afl_data - INFO - Season:2019, Home: Fremantle, Away: Richmond
+2019-05-30 22:59:14,120 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Adelaide
+2019-05-30 22:59:20,301 - __main__ - INFO - Season:2000, Home: West Coast, Away: Western Bulldogs
+2019-05-30 22:59:25,061 - scrape_afl_data - INFO - Season:2019, Home: West Coast, Away: Melbourne
+2019-05-30 22:59:26,389 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Melbourne
+2019-05-30 22:59:32,442 - __main__ - INFO - Season:2000, Home: Carlton, Away: Sydney
+2019-05-30 22:59:38,485 - __main__ - INFO - Season:2000, Home: Geelong, Away: Richmond
+2019-05-30 22:59:41,184 - scrape_afl_data - INFO - Season:2019, Home: Collingwood, Away: St Kilda
+2019-05-30 22:59:44,507 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Fremantle
+2019-05-30 22:59:50,571 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Essendon
+2019-05-30 22:59:56,664 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: St Kilda
+2019-05-30 22:59:57,335 - scrape_afl_data - INFO - Season:2019, Home: Brisbane Lions, Away: Adelaide
+2019-05-30 23:00:02,766 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Geelong
+2019-05-30 23:00:09,139 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Kangaroos
+2019-05-30 23:00:13,440 - scrape_afl_data - INFO - Season:2019, Home: Geelong, Away: Western Bulldogs
+2019-05-30 23:00:15,342 - __main__ - INFO - Season:2000, Home: Richmond, Away: West Coast
+2019-05-30 23:00:21,367 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Essendon
+2019-05-30 23:00:27,407 - __main__ - INFO - Season:2000, Home: Sydney, Away: Port Adelaide
+2019-05-30 23:00:29,509 - scrape_afl_data - INFO - Season:2019, Home: Essendon, Away: Fremantle
+2019-05-30 23:00:33,420 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Collingwood
+2019-05-30 23:00:39,497 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Carlton
+2019-05-30 23:00:45,937 - __main__ - INFO - Season:2000, Home: West Coast, Away: Hawthorn
+2019-05-30 23:00:45,964 - scrape_afl_data - INFO - Season:2019, Home: North Melbourne, Away: Sydney
+2019-05-30 23:00:51,944 - __main__ - INFO - Season:2000, Home: Richmond, Away: Collingwood
+2019-05-30 23:00:59,120 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Geelong
+2019-05-30 23:01:02,077 - scrape_afl_data - INFO - Season:2019, Home: Port Adelaide, Away: Gold Coast
+2019-05-30 23:01:05,169 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Carlton
+2019-05-30 23:01:11,866 - __main__ - INFO - Season:2000, Home: Essendon, Away: Adelaide
+2019-05-30 23:01:18,542 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Sydney
+2019-05-30 23:01:18,635 - scrape_afl_data - INFO - Season:2019, Home: Richmond, Away: Hawthorn
+2019-05-30 23:01:24,802 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Fremantle
+2019-05-30 23:01:30,869 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Brisbane Lions
+2019-05-30 23:01:34,882 - scrape_afl_data - INFO - Season:2019, Home: Greater Western Sydney, Away: Carlton
+2019-05-30 23:01:36,914 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Port Adelaide
+2019-05-30 23:01:43,907 - __main__ - INFO - Season:2000, Home: Carlton, Away: Kangaroos
+2019-05-30 23:01:50,099 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Richmond
+2019-05-30 23:01:51,820 - scrape_afl_data - INFO - Season:2019, Home: Sydney, Away: Collingwood
+2019-05-30 23:01:56,222 - __main__ - INFO - Season:2000, Home: Geelong, Away: Essendon
+2019-05-30 23:02:02,227 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Western Bulldogs
+2019-05-30 23:02:08,085 - scrape_afl_data - INFO - Season:2019, Home: Hawthorn, Away: Port Adelaide
+2019-05-30 23:02:08,245 - __main__ - INFO - Season:2000, Home: Collingwood, Away: West Coast
+2019-05-30 23:02:14,241 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Melbourne
+2019-05-30 23:02:20,317 - __main__ - INFO - Season:2000, Home: Sydney, Away: Brisbane Lions
+2019-05-30 23:02:24,414 - scrape_afl_data - INFO - Season:2019, Home: Western Bulldogs, Away: North Melbourne
+2019-05-30 23:02:26,383 - __main__ - INFO - Season:2000, Home: Essendon, Away: St Kilda
+2019-05-30 23:02:32,391 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Geelong
+2019-05-30 23:02:38,606 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Sydney
+2019-05-30 23:02:40,527 - scrape_afl_data - INFO - Season:2019, Home: Adelaide, Away: West Coast
+2019-05-30 23:02:44,665 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Fremantle
+2019-05-30 23:02:50,719 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Richmond
+2019-05-30 23:02:56,978 - scrape_afl_data - INFO - Season:2019, Home: Richmond, Away: Essendon
+2019-05-30 23:02:57,114 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Melbourne
+2019-05-30 23:03:03,184 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Port Adelaide
+2019-05-30 23:03:09,415 - __main__ - INFO - Season:2000, Home: West Coast, Away: Carlton
+2019-05-30 23:03:13,012 - scrape_afl_data - INFO - Season:2019, Home: Gold Coast, Away: Geelong
+2019-05-30 23:03:15,710 - __main__ - INFO - Season:2000, Home: Richmond, Away: Adelaide
+2019-05-30 23:03:21,710 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Carlton
+2019-05-30 23:03:27,704 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Collingwood
+2019-05-30 23:03:29,138 - scrape_afl_data - INFO - Season:2019, Home: Melbourne, Away: Greater Western Sydney
+2019-05-30 23:03:33,733 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: West Coast
+2019-05-30 23:03:39,834 - __main__ - INFO - Season:2000, Home: Essendon, Away: Kangaroos
+2019-05-30 23:03:45,281 - scrape_afl_data - INFO - Season:2019, Home: St Kilda, Away: Carlton
+2019-05-30 23:03:45,838 - __main__ - INFO - Season:2000, Home: Geelong, Away: Western Bulldogs
+2019-05-30 23:03:51,839 - __main__ - INFO - Season:2000, Home: Sydney, Away: Hawthorn
+2019-05-30 23:03:57,864 - __main__ - INFO - Season:2000, Home: Fremantle, Away: St Kilda
+2019-05-30 23:04:01,344 - scrape_afl_data - INFO - Season:2019, Home: Fremantle, Away: Brisbane Lions
+2019-05-30 23:04:03,869 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Brisbane Lions
+2019-05-30 23:04:10,438 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Collingwood
+2019-05-30 23:04:16,449 - __main__ - INFO - Season:2000, Home: West Coast, Away: Port Adelaide
+2019-05-30 23:04:22,561 - __main__ - INFO - Season:2000, Home: Carlton, Away: Geelong
+2019-05-30 23:04:28,887 - __main__ - INFO - Season:2000, Home: Sydney, Away: Essendon
+2019-05-30 23:04:38,305 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Hawthorn
+2019-05-30 23:04:44,622 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Fremantle
+2019-05-30 23:04:50,711 - __main__ - INFO - Season:2000, Home: Richmond, Away: Western Bulldogs
+2019-05-30 23:04:56,803 - __main__ - INFO - Season:2000, Home: Collingwood, Away: St Kilda
+2019-05-30 23:05:03,034 - __main__ - INFO - Season:2000, Home: Carlton, Away: Adelaide
+2019-05-30 23:05:09,103 - __main__ - INFO - Season:2000, Home: Geelong, Away: Brisbane Lions
+2019-05-30 23:05:15,200 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Melbourne
+2019-05-30 23:05:21,276 - __main__ - INFO - Season:2000, Home: Essendon, Away: West Coast
+2019-05-30 23:05:27,677 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Kangaroos
+2019-05-30 23:05:33,784 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Richmond
+2019-05-30 23:05:39,885 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Sydney
+2019-05-30 23:05:46,049 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Hawthorn
+2019-05-30 23:05:52,096 - __main__ - INFO - Season:2000, Home: Geelong, Away: Fremantle
+2019-05-30 23:05:58,156 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Richmond
+2019-05-30 23:06:04,295 - __main__ - INFO - Season:2000, Home: Sydney, Away: St Kilda
+2019-05-30 23:06:10,327 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Essendon
+2019-05-30 23:06:16,333 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Adelaide
+2019-05-30 23:06:22,408 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Carlton
+2019-05-30 23:06:28,526 - __main__ - INFO - Season:2000, Home: West Coast, Away: Kangaroos
+2019-05-30 23:06:34,564 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Geelong
+2019-05-30 23:06:40,584 - __main__ - INFO - Season:2000, Home: Richmond, Away: Essendon
+2019-05-30 23:06:46,749 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Melbourne
+2019-05-30 23:06:52,838 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Port Adelaide
+2019-05-30 23:07:00,878 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Carlton
+2019-05-30 23:07:08,045 - __main__ - INFO - Season:2000, Home: Sydney, Away: West Coast
+2019-05-30 23:07:13,219 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-30 23:07:14,036 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Western Bulldogs
+2019-05-30 23:07:19,624 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-30 23:07:20,067 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Collingwood
+2019-05-30 23:07:26,115 - __main__ - INFO - Season:2000, Home: Essendon, Away: Fremantle
+2019-05-30 23:07:26,183 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-30 23:07:32,359 - __main__ - INFO - Season:2000, Home: Geelong, Away: Adelaide
+2019-05-30 23:07:32,780 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-30 23:07:38,461 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Sydney
+2019-05-30 23:07:39,161 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-30 23:07:44,558 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Richmond
+2019-05-30 23:07:45,781 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-30 23:07:50,602 - __main__ - INFO - Season:2000, Home: West Coast, Away: St Kilda
+2019-05-30 23:07:52,191 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-30 23:07:56,658 - __main__ - INFO - Season:2000, Home: Carlton, Away: Collingwood
+2019-05-30 23:07:58,682 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-30 23:08:02,796 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Western Bulldogs
+2019-05-30 23:08:05,037 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-30 23:08:08,799 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Hawthorn
+2019-05-30 23:08:11,493 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-30 23:08:15,110 - __main__ - INFO - Season:2000, Home: Geelong, Away: Kangaroos
+2019-05-30 23:08:17,902 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-30 23:08:21,243 - __main__ - INFO - Season:2000, Home: Adelaide, Away: West Coast
+2019-05-30 23:08:24,338 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-30 23:08:27,276 - __main__ - INFO - Season:2000, Home: Carlton, Away: Western Bulldogs
+2019-05-30 23:08:31,031 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-30 23:08:33,428 - __main__ - INFO - Season:2000, Home: Essendon, Away: Hawthorn
+2019-05-30 23:08:37,687 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-30 23:08:39,582 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Port Adelaide
+2019-05-30 23:08:44,445 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-30 23:08:45,679 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Sydney
+2019-05-30 23:08:51,033 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-30 23:08:52,215 - __main__ - INFO - Season:2000, Home: St Kilda, Away: Melbourne
+2019-05-30 23:08:57,878 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-30 23:08:58,629 - __main__ - INFO - Season:2000, Home: Fremantle, Away: Richmond
+2019-05-30 23:09:04,475 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-30 23:09:04,786 - __main__ - INFO - Season:2000, Home: Carlton, Away: Essendon
+2019-05-30 23:09:10,922 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Port Adelaide
+2019-05-30 23:09:11,229 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-30 23:09:16,943 - __main__ - INFO - Season:2000, Home: Collingwood, Away: Western Bulldogs
+2019-05-30 23:09:18,155 - scrape_afl_data - INFO - No games to scrape for season 2019
+2019-05-30 23:09:23,191 - __main__ - INFO - Season:2000, Home: Sydney, Away: Kangaroos
+2019-05-30 23:09:29,226 - __main__ - INFO - Season:2000, Home: West Coast, Away: Geelong
+2019-05-30 23:09:35,430 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Brisbane Lions
+2019-05-30 23:09:41,895 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Fremantle
+2019-05-30 23:09:48,088 - __main__ - INFO - Season:2000, Home: Richmond, Away: St Kilda
+2019-05-30 23:09:54,148 - __main__ - INFO - Season:2000, Home: Essendon, Away: Western Bulldogs
+2019-05-30 23:10:00,641 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Adelaide
+2019-05-30 23:10:06,697 - __main__ - INFO - Season:2000, Home: Richmond, Away: Sydney
+2019-05-30 23:10:12,751 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: St Kilda
+2019-05-30 23:10:18,820 - __main__ - INFO - Season:2000, Home: Port Adelaide, Away: Carlton
+2019-05-30 23:10:24,921 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Collingwood
+2019-05-30 23:10:31,008 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Geelong
+2019-05-30 23:10:37,084 - __main__ - INFO - Season:2000, Home: Fremantle, Away: West Coast
+2019-05-30 23:10:43,155 - __main__ - INFO - Season:2000, Home: Western Bulldogs, Away: Hawthorn
+2019-05-30 23:10:49,220 - __main__ - INFO - Season:2000, Home: Essendon, Away: Collingwood
+2019-05-30 23:10:55,825 - __main__ - INFO - Season:2000, Home: Geelong, Away: Sydney
+2019-05-30 23:11:02,099 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Fremantle
+2019-05-30 23:11:08,164 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: St Kilda
+2019-05-30 23:11:14,169 - __main__ - INFO - Season:2000, Home: Carlton, Away: Richmond
+2019-05-30 23:11:21,087 - __main__ - INFO - Season:2000, Home: Adelaide, Away: Port Adelaide
+2019-05-30 23:11:27,228 - __main__ - INFO - Season:2000, Home: West Coast, Away: Melbourne
+2019-05-30 23:11:33,420 - __main__ - INFO - Season:2000, Home: Hawthorn, Away: Geelong
+2019-05-30 23:11:39,512 - __main__ - INFO - Season:2000, Home: Essendon, Away: Kangaroos
+2019-05-30 23:11:45,656 - __main__ - INFO - Season:2000, Home: Brisbane Lions, Away: Western Bulldogs
+2019-05-30 23:11:52,180 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Carlton
+2019-05-30 23:11:58,196 - __main__ - INFO - Season:2000, Home: Kangaroos, Away: Hawthorn
+2019-05-30 23:12:04,229 - __main__ - INFO - Season:2000, Home: Carlton, Away: Brisbane Lions
+2019-05-30 23:12:10,439 - __main__ - INFO - Season:2000, Home: Melbourne, Away: Kangaroos
+2019-05-30 23:12:16,799 - __main__ - INFO - Season:2000, Home: Essendon, Away: Carlton
+2019-05-30 23:12:23,095 - __main__ - INFO - Season:2000, Home: Essendon, Away: Melbourne
+2019-05-30 23:12:36,432 - __main__ - INFO - Season:2001, Home: Kangaroos, Away: Essendon
+2019-05-30 23:12:42,634 - __main__ - INFO - Season:2001, Home: Hawthorn, Away: Collingwood
+2019-05-30 23:12:48,680 - __main__ - INFO - Season:2001, Home: Western Bulldogs, Away: St Kilda
+2019-05-30 23:12:54,789 - __main__ - INFO - Season:2001, Home: Fremantle, Away: Carlton
+2019-05-30 23:13:01,323 - __main__ - INFO - Season:2001, Home: Port Adelaide, Away: Brisbane Lions
+2019-05-30 23:13:07,379 - __main__ - INFO - Season:2001, Home: Sydney, Away: Adelaide
+2019-05-30 23:13:13,488 - __main__ - INFO - Season:2001, Home: Geelong, Away: West Coast
+2019-05-30 23:13:19,713 - __main__ - INFO - Season:2001, Home: Melbourne, Away: Richmond
+2019-05-30 23:13:25,787 - __main__ - INFO - Season:2001, Home: Essendon, Away: Port Adelaide
+2019-05-30 23:13:31,838 - __main__ - INFO - Season:2001, Home: Carlton, Away: Hawthorn
+2019-05-30 23:13:37,885 - __main__ - INFO - Season:2001, Home: Richmond, Away: Western Bulldogs
+2019-05-30 23:13:44,061 - __main__ - INFO - Season:2001, Home: Collingwood, Away: Fremantle
+2019-05-30 23:13:50,309 - __main__ - INFO - Season:2001, Home: Adelaide, Away: Melbourne
+2019-05-30 23:13:56,381 - __main__ - INFO - Season:2001, Home: St Kilda, Away: Geelong
+2019-05-30 23:14:02,564 - __main__ - INFO - Season:2001, Home: Brisbane Lions, Away: Kangaroos
+2019-05-30 23:14:08,737 - __main__ - INFO - Season:2001, Home: West Coast, Away: Sydney
+2019-05-30 23:14:14,815 - __main__ - INFO - Season:2001, Home: Carlton, Away: Essendon
+2019-05-30 23:14:21,156 - __main__ - INFO - Season:2001, Home: Richmond, Away: Brisbane Lions
+2019-05-30 23:14:27,238 - __main__ - INFO - Season:2001, Home: Western Bulldogs, Away: Collingwood
+2019-05-30 23:14:33,322 - __main__ - INFO - Season:2001, Home: Kangaroos, Away: Sydney
+2019-05-30 23:14:39,345 - __main__ - INFO - Season:2001, Home: Adelaide, Away: Port Adelaide
+2019-05-30 23:14:45,512 - __main__ - INFO - Season:2001, Home: St Kilda, Away: West Coast
+2019-05-30 23:14:51,571 - __main__ - INFO - Season:2001, Home: Fremantle, Away: Hawthorn
+2019-05-30 23:14:57,833 - __main__ - INFO - Season:2001, Home: Melbourne, Away: Geelong
+2019-05-30 23:15:04,016 - __main__ - INFO - Season:2001, Home: Collingwood, Away: Richmond
+2019-05-30 23:15:10,083 - __main__ - INFO - Season:2001, Home: Sydney, Away: Essendon
+2019-05-30 23:15:16,384 - __main__ - INFO - Season:2001, Home: Carlton, Away: Adelaide
+2019-05-31 19:15:21,522 - scrape_afl_data - INFO - No games to scrape for season 2000
+2019-05-31 19:15:27,917 - scrape_afl_data - INFO - No games to scrape for season 2001
+2019-05-31 19:15:34,368 - scrape_afl_data - INFO - No games to scrape for season 2002
+2019-05-31 19:15:40,694 - scrape_afl_data - INFO - No games to scrape for season 2003
+2019-05-31 19:15:47,130 - scrape_afl_data - INFO - No games to scrape for season 2004
+2019-05-31 19:15:53,634 - scrape_afl_data - INFO - No games to scrape for season 2005
+2019-05-31 19:15:59,991 - scrape_afl_data - INFO - No games to scrape for season 2006
+2019-05-31 19:16:06,681 - scrape_afl_data - INFO - No games to scrape for season 2007
+2019-05-31 19:16:13,355 - scrape_afl_data - INFO - No games to scrape for season 2008
+2019-05-31 19:16:19,846 - scrape_afl_data - INFO - No games to scrape for season 2009
+2019-05-31 19:16:26,305 - scrape_afl_data - INFO - No games to scrape for season 2010
+2019-05-31 19:16:32,738 - scrape_afl_data - INFO - No games to scrape for season 2011
+2019-05-31 19:16:39,315 - scrape_afl_data - INFO - No games to scrape for season 2012
+2019-05-31 19:16:45,858 - scrape_afl_data - INFO - No games to scrape for season 2013
+2019-05-31 19:16:52,524 - scrape_afl_data - INFO - No games to scrape for season 2014
+2019-05-31 19:16:59,031 - scrape_afl_data - INFO - No games to scrape for season 2015
+2019-05-31 19:17:08,786 - scrape_afl_data - INFO - No games to scrape for season 2016
+2019-05-31 19:17:15,302 - scrape_afl_data - INFO - No games to scrape for season 2017
+2019-05-31 19:17:22,075 - scrape_afl_data - INFO - No games to scrape for season 2018
+2019-05-31 19:17:29,173 - scrape_afl_data - INFO - No games to scrape for season 2019
