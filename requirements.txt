@@ -6,3 +6,5 @@ pandas
 lxml
 bcrypt
 html5lib
+boto3
+io
